@@ -8,185 +8,83 @@
     <title>Portfólio Dev</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-    <style>
-        body {
-            background-color: #e8e8e8;
-            padding: 20px;
-        }
-        
-        h1 {
-            color: #8a79f5;
-            font-family: 'Poppins', 'Helvetica', 'sans-serif';
-            font-size: 48px;
-            font-weight: 900;
-            letter-spacing: 1px;
-        }
-        
-        h2 {
-            color: #3d495c;
-            font-family: 'poppins', 'Helvetica', 'sans-serif';
-            font-size: 20px;
-            font-weight: 600;
-            margin-top: -35px;
-            margin-bottom: 40px;
-            letter-spacing: 1px;
-        }
-        
-        h3 {
-            color: #8a79f5;
-            font-family: 'Poppins', 'Helvetica', 'sans-serif';
-            font-size: 25px;
-            font-weight: 800;
-            letter-spacing: 1px;
-        }
-        
-        h4 {
-            color: #8a79f5;
-            font-family: 'Poppins', 'Helvetica', 'sans-serif';
-            font-weight: 600;
-            font-size: 19px;
-            letter-spacing: 0.5px;
-        }
-        
-        p {
-            color: #3d495c;
-            font-family: 'Poppins', 'Helvetica', 'sans-serif';
-            font-size: 16px;
-            line-height: 28px;
-            font-weight: 300;
-            letter-spacing: 0.5px;
-        }
-        
-        ul {
-            color: #3d495c;
-            font-family: 'Poppins', 'Helvetica', 'sans-serif';
-        }
-        
-        .photo-bio {
-            border-radius: 50%;
-            border: 3px solid #3d495c;
-            box-shadow: 4px 4px 2px 1px rgba(0, 0, 250, .1);
-        }
-        
-        .link {
-            color: #8a79f5;
-            letter-spacing: 0.5px;
-        }
-        
-        .title-portfolio {
-            color: #8a79f5;
-            letter-spacing: 0.5px;
-        }
-        
-        .link-portfolio {
-            color: #8a79f5;
-            font-weight: 600;
-            text-decoration: none;
-            letter-spacing: 0.5px;
-        }
-        
-        .subtitle-portfolio {
-            color: #3d495c;
-            font-weight: 700;
-            letter-spacing: 0.5px;
-            letter-spacing: 0.5px;
-        }
-        
-        .skill-title {
-            font-weight: 500;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
+
 <body>
-    <h1>Olá! Eu sou Beatriz Ribeiro</h1>
-    <h2>Estudante de Desenvolvimento Web na <a class="link" href="https://www.betrybe.com/" target="_blank">Trybe</a></h2>
-    <img class="photo-bio" id=" minhafoto " src="minha-foto.jpeg " alt="Foto de uma mulher que está sorrindo usando uma blusa preta e um fundo lilás " width="300px ">
+    <!-- Primeira parte da página -->
+    <div class="hero">
+        <h1>Olá! Eu sou Beatriz Ribeiro</h1>
+        <h2>Estudante de Desenvolvimento Web na <a class="link" href="https://www.betrybe.com/" target="_blank">Trybe</a></h2>
+        <img class="photo-bio" id=" minhafoto " src="minha-foto.jpeg " alt="Foto de uma mulher que está sorrindo usando uma blusa preta e um fundo lilás " width="300px ">
 
-    <p>
-        Tenho formação em Marketing Digital pela Universidade Europeia de Lisboa.<br> Sou carioca e estou baseada em Portugal, e atualmente trabalho com criação de site Wordpress com Elementor.
-        <br>Aqui você poderá conhecer <a class="link" href="#habilidades">minhas principais habilidades</a>.
+        <p class="hero-text">
+            Tenho formação em Marketing Digital pela Universidade Europeia de Lisboa.<br> Sou carioca e estou baseada em Portugal, e atualmente trabalho com criação de site Wordpress com Elementor.
+            <br>Aqui você poderá conhecer <a class="link" href="#habilidades">minhas principais habilidades</a>.
 
-    </p>
+        </p>
+        <a href="https://github.com/bearibeiroa">
+            <img class="social-logo" src=" github-logo.png " alt="logo github " width="60px "></a>
+        <a href="https://www.linkedin.com/in/bearibeiroa/">
+            <img class="social-logo linkedin" src="linkedin-logo.png " alt="logo github " width="40px "></a>
+    </div>
 
-    <p class="subtitle-portfolio" id="sites">
-        Abaixo alguns sites que desenvolvi:
-    </p>
+    <!-- Título do portfólio -->
+    <div class="portfolio">
+        <p id="sites" class="subtitle-portfolio">Abaixo alguns sites que desenvolvi em Wordpress:</p>
 
-    <img src="portifolio-ohdara-digital-site-institucional-2.jpg" alt="Imagem um site da web" width="300px">
+        <!-- Portfólio Container -->
 
-    <p class="title-portfolio">
-        Site Patrick Ferreira - Para acessar clique
-        <a class="link-portfolio" href="https://patrickgferreira.com" target="_blank">AQUI</a>
-    </p>
+        <div class="portfolio-container ">
+            <img class="portfolio-image" src=" portifolio-ohdara-digital-site-institucional-2.jpg " alt="Imagem um site da web " width="300px ">
+
+            <p class="title-portfolio ">
+                Site Patrick Ferreira <br>Para acessar clique
+                <a class="link-portfolio " href="https://patrickgferreira.com " target="_blank ">AQUI</a>
+            </p>
+        </div>
+
+        <div class="portfolio-container "><img class="portfolio-image" src="portifolio-ohdara-digital-site-institucional-1.jpg " alt="Imagem um site da web " width="300px ">
+
+            <p class="title-portfolio ">
+                Site Raquel Iff <br> Para acessar clique
+                <a class="link-portfolio " href="https://raqueliff.com " target="_blank ">AQUI</a>
+            </p>
+        </div>
+        <div class="portfolio-container "><img class="portfolio-image" src="portifolio-ohdara-digital-criacao-de-site-2.jpg " alt="Imagem um site da web " width="300px ">
+
+            <p class="title-portfolio ">
+                Site Z Vegan Hair <br>Para acessar clique
+                <a class="link-portfolio " href="https://zveganhair.com " target="_blank ">AQUI</a>
+            </p>
+        </div>
+    </div>
 
 
-    <img src="portifolio-ohdara-digital-site-institucional-1.jpg" alt="Imagem um site da web" width="300px">
+    <!-- Habilidades -->
+    <div class="skills">
+        <div class="skill-list-item">
+            <h3 id="habilidades" class="skill-title">
+                Minhas
+                <br>Habilidades </h3>
+        </div>
+        <div class="skill-list-item">
+            <ul class="list-item">
+                <li>Unix & Bash</li>
+                <li><strong><em>HTML</em></strong> </li>
+                <li>CSS</li>
+                <li>Javascript básico</li>
+                <li>
+                    <a class="link " href="#sites ">Wordpress</a>
+                </li>
+            </ul>
+        </div>
 
-    <p class="title-portfolio">
-        Site Raquel Iff - Para acessar clique
-        <a class="link-portfolio" href="https://raqueliff.com" target="_blank">AQUI</a>
-    </p>
 
+    </div>
 
-    <img src="portifolio-ohdara-digital-criacao-de-site-2.jpg" alt="Imagem um site da web" width="300px">
-
-    <p class="title-portfolio">
-        Site Z Vegan Hair By João e Brito - Para acessar clique
-        <a class="link-portfolio" href="https://zveganhair.com" target="_blank">AQUI</a>
-    </p>
-
-    <h3 id="habilidades">
-        Minhas habilidades
-    </h3>
-    <p>
-        Estou sempre trabalhando para aprimorar e aprender novas habilidades. <strong>Gostaria de destacar algumas:</strong>
-    </p>
-
-    <h4>Hard Skills</h4>
-
-    <p class="skill-title">Design</p>
-    <ul>
-        <li>Adobe Illustrator</li>
-        <li><strong><em>Adobe XD</em></strong></li>
-        <li>Figma</li>
-        <li>Adobe Photoshop</li>
-    </ul>
-
-    <p class="skill-title">Marketing</p>
-    <ul>
-        <li>Google Ads</li>
-        <li>Google Analytics</li>
-        <li>Ferramentas de email marketing:
-            <strong><em>MailChimp, ActiveCampaign e Sendinblue</em></strong></li>
-        <li>SEO</li>
-    </ul>
-
-    <p class="skill-title">Desenvolvimento Web</p>
-    <ul>
-        <li>Unix & Bash</li>
-        <li><strong><em>HTML</em></strong> </li>
-        <li>CSS</li>
-        <li>Javascript básico</li>
-        <li>
-            <a class="link" href="#sites">Wordpress</a>
-        </li>
-    </ul>
-
-    <h4>Soft Skills</h4>
-    <ul>
-        <li>Boa comunicação</li>
-        <li>Empatia</li>
-        <li><strong><em>Trabalho em equipe</em></strong>
-        </li>
-        <li>Determinação e foco</strong>
-        </li>
-        <li>Flexibilidade e resiliência</li>
-        <li>Proatividade</li>
-    </ul>
-
-    <p>Acesse <a class="link" href=" https://odaramarketingdigital.com/blog " target="_blank ">meu blog</a> para conhecer meus textos sobre
+    <p class="footer">Acesse <a class="link " href=" https://odaramarketingdigital.com/blog " target="_blank ">meu blog</a> para conhecer meus textos sobre
         <strong>Marketing Digital</strong></p>
 
 </body>
