@@ -1,155 +1,195 @@
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    
-    body {
-        background-color: #f2f2f2;
-    }
-    
-    h1 {
-        color: #8a79f5;
-        font-family: 'Poppins', 'Helvetica', 'sans-serif';
-        font-size: 48px;
-        font-weight: 900;
-        letter-spacing: 1px;
-    }
-    
-    h2 {
-        color: #3d495c;
-        font-family: 'poppins', 'Helvetica', 'sans-serif';
-        font-size: 20px;
-        font-weight: 600;
-        letter-spacing: 1px;
-        padding-bottom: 30px;
-    }
-    
-    h3 {
-        color: #8a79f5;
-        font-family: 'Poppins', 'Helvetica', 'sans-serif';
-        font-size: 25px;
-        font-weight: 800;
-        letter-spacing: 1px;
-    }
-    
-    h4 {
-        color: #8a79f5;
-        font-family: 'Poppins', 'Helvetica', 'sans-serif';
-        font-weight: 600;
-        font-size: 19px;
-        letter-spacing: 0.5px;
-    }
-    
-    p {
-        color: #3d495c;
-        font-family: 'Poppins', 'Helvetica', 'sans-serif';
-        font-size: 16px;
-        line-height: 28px;
-        font-weight: 300;
-        letter-spacing: 0.5px;
-    }
-    
-    ul {
-        color: #3d495c;
-        font-family: 'Poppins', 'Helvetica', 'sans-serif';
-    }
-    
-    .hero {
-        max-width: auto;
-        text-align: center;
-        padding: 30px;
-    }
-    
-    .photo-bio {
-        border-radius: 50%;
-        border: 3px solid #3d495c;
-        box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
-        margin-bottom: 30px;
-    }
-    
-    .social-logo {
-        display: inline-block;
-        vertical-align: top;
-        margin-top: 20px;
-    }
-    
-    .linkedin {
-        margin-top: 30px;
-        margin-left: 10px;
-    }
-    
-    .subtitle-portfolio {
-        text-align: center;
-        color: #3d495c;
-        font-weight: 700;
-        letter-spacing: 0.5px;
-        letter-spacing: 0.5px;
-        padding: 30px;
-    }
-    
-    .portfolio-container {
-        width: 30%;
-        text-align: center;
-        display: inline-block;
-        vertical-align: top;
-        margin: 30px 0px 60px 30px;
-    }
-    
-    .portfolio-image {
-        border-radius: 4%;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        margin-bottom: 10px;
-    }
-    
-    .skills {
-        width: 100%;
-        background-color: white;
-        margin-top: 30px;
-        text-align: center;
-        padding: 20px;
-    }
-    
-    .skill-title {
-        font-size: 40px;
-        text-align: justify;
-        line-height: 45px;
-    }
-    
-    .skill-list-item {
-        text-align: center;
-        display: inline-block;
-        padding: 40px 80px 40px 60px;
-        vertical-align: middle;
-        font-size: 20px;
-    }
-    
-    .list-item {
-        text-align: justify;
-        list-style-type: none;
-    }
-    
-    .footer {
-        text-align: center;
-        padding: 10px;
-    }
-    
-    .link {
-        color: #8a79f5;
-        letter-spacing: 0.5px;
-    }
-    
-    .title-portfolio {
-        color: #8a79f5;
-        letter-spacing: 0.5px;
-    }
-    
-    .link-portfolio {
-        color: #8a79f5;
-        font-weight: 600;
-        text-decoration: none;
-        letter-spacing: 0.5px;
-    }
-    
-    .skill-title {
-        font-weight: 500;
-    }
+/* Configuração de <nav> <header> <menu> e flex ajustada a partir do tutorial 
+Origamid - https://www.youtube.com/watch?v=x-4z_u8LcGc&t=1558s */
+
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Poppins', 'Helvetica', 'sans-serif';
+    font-size: 1.2rem;
+    color: #3d495c;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    background-color: #8a79f5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.portfolio-flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.portfolio-flex>div {
+    flex: 1 1 350px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+/*mexi daqui para baixo sozinha*/
+
+body {
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: #8a79f5;
+    font-family: 'Poppins', 'Helvetica', 'sans-serif';
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #3d495c;
+    font-family: 'poppins', 'Helvetica', 'sans-serif';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+
+h3 {
+    color: #8a79f5;
+    font-family: 'Poppins', 'Helvetica', 'sans-serif';
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+h4 {
+    color: #8a79f5;
+    font-family: 'Poppins', 'Helvetica', 'sans-serif';
+    font-weight: 600;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+}
+
+p {
+    color: #3d495c;
+    font-family: 'Poppins', 'Helvetica', 'sans-serif';
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.hero {
+    max-width: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.photo-bio {
+    border-radius: 50%;
+    border: 3px solid #3d495c;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    margin-bottom: 30px;
+    display: inline;
+}
+
+.social-logo {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.linkedin {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.subtitle-portfolio {
+    text-align: center;
+    color: #3d495c;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    letter-spacing: 0.5px;
+    padding: 30px;
+}
+
+.skills {
+    width: 100%;
+    background-color: white;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.skill-title {
+    font-size: 40px;
+    text-align: justify;
+    line-height: 45px;
+}
+
+.skill-list-item {
+    text-align: center;
+    display: inline-block;
+    padding: 40px 80px 40px 60px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.list-item {
+    text-align: justify;
+    list-style-type: none;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.link {
+    color: #8a79f5;
+    letter-spacing: 0.5px;
+}
+
+.title-portfolio {
+    color: #8a79f5;
+    letter-spacing: 0.5px;
+}
+
+.link-portfolio {
+    color: #8a79f5;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+.skill-title {
+    font-weight: 500;
+}
