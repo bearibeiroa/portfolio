@@ -1,4 +1,4 @@
-/* Configuração de <nav> <header> <menu> e flex ajustada a partir do tutorial 
+/* Configuração de <nav> <header> <menu> e flex ajustada a partir do tutorial
 Origamid - https://www.youtube.com/watch?v=x-4z_u8LcGc&t=1558s */
 
 body,
@@ -142,30 +142,30 @@ p {
 }
 
 .skills {
-    width: 100%;
+    display: flex;
+    justify-content: center;
     background-color: white;
-    margin-top: 30px;
-    text-align: center;
     padding: 20px;
 }
 
 .skill-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font-size: 40px;
-    text-align: justify;
     line-height: 45px;
+    margin-right: 20px;
 }
 
 .skill-list-item {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    display: inline-block;
-    padding: 40px 80px 40px 60px;
-    vertical-align: middle;
     font-size: 20px;
 }
 
 .list-item {
-    text-align: justify;
-    list-style-type: none;
+    list-style: none;
 }
 
 .footer {
@@ -193,3 +193,4 @@ p {
 .skill-title {
     font-weight: 500;
 }
+
