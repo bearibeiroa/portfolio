@@ -15,11 +15,11 @@ p {
 
 a {
     text-decoration: none;
-    color: #8a79f5;
+    color: white;
 }
 
 .header {
-    background-color: #f2f2f2;
+    background-color: #8a79f5;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -196,7 +196,7 @@ p {
 
 .logo-text {
     padding: 20px;
-    border: 5px solid  #8a79f5;
+    border: 5px solid white;
     font-size: 20px;
     font-weight: 600;
 }
