@@ -15,16 +15,16 @@ p {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #8a79f5;
 }
 
 .header {
-    background-color: #8a79f5;
+    background-color: #f2f2f2;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 .menu {
@@ -192,5 +192,12 @@ p {
 
 .skill-title {
     font-weight: 500;
+}
+
+.logo-text {
+    padding: 20px;
+    border: 5px solid  #8a79f5;
+    font-size: 20px;
+    font-weight: 600;
 }
 
